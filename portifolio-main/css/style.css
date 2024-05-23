@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px auto;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #111111;
+}
+
+.center a{
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.center a:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-out;
+    color: #999999;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin-top: 80px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.menu a {
+  color: #ffffff;
+  padding: 20px 20px;
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: #999999;
+  transition: 0.3s;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-left {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.column-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  max-width: 75%;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.about {
+  height: 80vh;
+  margin: 100px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  padding-top: 80px;
+  font-weight: 400;
+}
+
+.column-left p {
+  padding-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+
+.social-about a {
+  display: inline-block;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 25px 50px;
+  padding: 10px 20px;
+}
+
+
+.social-about a:hover {
+  transform: scale(1.2);
+  transition: transform 0.4s ease-out;
+  color: #999999;
+}
+
+.portifolio h1 {
+  margin: 80px 0px;
+  text-align: center;
+}
+
+.grid-container {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+
+}
+
+.grid-item {
+  background-color: #222222;
+  padding: 5px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.grid-item h1 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0px;
+  margin: 20px;
+}
+
+
+.grid-item p {
+  font-size: 1rem;
+  background-color: #222222;
+  color: #e7e7e7e7;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 15px 15px 10px 15px;
+  height: 120px;
+}
+
+.aplicacao {
+  position: relative;
+}
+
+.aplicacao span {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  position: absolute;
+  background-color: rgba(222, 184, 135, 0.658);
+  top: -440px;
+  right: 25px;
+}
+
+span:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.grid-item img {
+  width: 400px;
+  height: 450px;
+  border-radius: px;
+}
