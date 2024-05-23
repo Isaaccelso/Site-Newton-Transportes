@@ -52,6 +52,9 @@ a:hover {
 .row {
   display: flex;
   flex-wrap: wrap;
+
+  width: auto;
+  height: auto;
 }
 
 .column-left {
@@ -64,29 +67,29 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 500;
 }
 
 .profile {
-  max-width: 75%;
-  height: auto;
-  border-radius: 50%;
+  max-width: 100%;
+  height: 100%;
 }
 
 
 .about {
-  height: 80vh;
+  height: 100vh;
   margin: 100px;
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 800;
-  padding-top: 40px;
 }
 
 h2 {
   font-size: 1.8rem;
   padding-top: 80px;
+  padding-bottom: 40px;
   font-weight: 400;
 }
 
@@ -96,13 +99,16 @@ h2 {
   font-weight: 200;
 }
 
+.social-about {
+  margin-top: 85px;
+}
 
+#first-link {
+  padding-left: 0px;
+}
 .social-about a {
-  display: inline-block;
-  text-decoration: none;
-  justify-content: space-between;
-  margin: 25px 50px;
-  padding: 10px 20px;
+  text-align: center;
+  padding: 40px
 }
 
 
@@ -117,55 +123,6 @@ h2 {
   text-align: center;
 }
 
-.grid-container {
-  max-width: 1400px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 50px;
-
-}
-
-.grid-item {
-  background-color: #222222;
-  padding: 5px;
-  text-align: center;
-  border-radius: 15px;
-}
-
-.grid-item h1 {
-  color: #ffffff;
-  font-size: 1.2rem;
-  padding: 0px;
-  margin: 20px;
-}
-
-
-.grid-item p {
-  font-size: 1rem;
-  background-color: #222222;
-  color: #e7e7e7e7;
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 15px 15px 10px 15px;
-  height: 120px;
-}
-
-.aplicacao {
-  position: relative;
-}
-
-.aplicacao span {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 5px;
-  border-radius: 5px;
-  color: black;
-  position: absolute;
-  background-color: rgba(222, 184, 135, 0.658);
-  top: -440px;
-  right: 25px;
-}
 
 span:hover {
   color: red;
@@ -177,3 +134,80 @@ span:hover {
   height: 450px;
   border-radius: px;
 }
+
+.description-services{
+  margin-bottom: 60px;
+}
+
+
+
+
+/** SERVICOS **/
+
+.servicos-oferecidos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.service > h3 {
+  color: red;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+
+.caracteristicas {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.beneficios {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+
+.service > p { 
+  max-width: 50ch;
+}
+
+.resumo {
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+.img > img {
+  max-width:  400px;
+  max-height: 200px;
+  margin-bottom: 10px;
+  }
+
+.img {
+    margin: auto;
+    display: flex;
+  }
+
+  .service > p {
+    color: #555555;
+  }
+
+  .beneficios > p {
+    color: #555555;
+  }
+
+ li {
+  color: #555555;
+    margin-left: 20px;
+  }
+
+  h4 {
+    color: #111111;
+  }
