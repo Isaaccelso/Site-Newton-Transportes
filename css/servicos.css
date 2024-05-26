@@ -1,0 +1,89 @@
+.description-services{
+    margin-bottom: 60px;
+    color: white;
+  }
+
+  .servicos-oferecidos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .service {
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .service > h3 {
+    color: red;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  .caracteristicas {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .beneficios {
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .service > p { 
+    max-width: 50ch;
+  }
+  
+  .resumo {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .img > img {
+    max-width:  400px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    }
+  
+  .img {
+      margin: auto;
+      display: flex;
+    }
+  
+    .service > p {
+      color: #555555;
+    }
+  
+    .beneficios > p {
+      color: #555555;
+    }
+  
+   li {
+    color: #555555;
+      margin-left: 20px;
+    }
+  
+    h4 {
+      color: #111111;
+    }
+
+    .pagamento {
+        margin-top: 30px;
+        padding-bottom: 20px;
+      }
+
+      .pagamento > h4 > p {
+        color: #111111;
+      }
+    
+      .pagamento > p {
+        color: #111111;
+      }
+    
+      .pagamento > p {
+        margin-top: 5px;
+      }

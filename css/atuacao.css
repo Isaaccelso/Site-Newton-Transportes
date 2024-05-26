@@ -1,0 +1,36 @@
+.imagem-atuacao > img {
+  width: 80%;
+  display: flex;
+}
+
+.cidades-atuacao > p {
+  padding: 0px 20px 20px 0px;
+}
+
+.cidades-atuacao > h2 {
+  color: white;
+  font-weight: 800;
+}
+
+.titulo-mapa-atuacao {
+  color: white;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+.botao-orcamento {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin-top: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.titulo {
+  font-weight: 900;
+  margin-bottom: 20px;
+}

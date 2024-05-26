@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  
+  
+  body {
+    background-color: #404040;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin-top: 80px;
+  }
+
+  footer {
+    position: relative; 
+    bottom: 0; 
+    background-color: #404040; 
+    color: white;
+    text-align: center; 
+    padding: 10px;
+  }
+
+  .space-footer {
+    margin-top: 150px
+  }
