@@ -3,9 +3,21 @@
     color: white;
   }
 
+
   .servicos-oferecidos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .orcar {
+    background-color: rgb(189, 33, 33);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2000px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
   }
   
   .service {
@@ -87,3 +99,4 @@
       .pagamento > p {
         margin-top: 5px;
       }
+    

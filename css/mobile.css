@@ -1,0 +1,160 @@
+@media only screen and (max-width: 768px) {
+  /** HOME **/
+  #primeiro-link {
+    padding: 10px;
+    display: block;
+    margin: 15px 0px 10px 5px;
+  }
+
+  .redes-sociais {
+    margin: 0px;
+  }
+
+  .redes-sociais > a {
+    display: inline-flex;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .redes-sociais a:hover {
+    transform: none;
+    transition: none;
+  }
+
+  /** SERVICOS **/
+
+  .servicos-oferecidos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .resumo {
+    height: 120px;
+  }
+
+  .service > h3 {
+    height: 50px;
+  }
+
+  .caracteristicas {
+    height: 150px;
+  }
+
+  .beneficios {
+    height: 100px;
+  }
+
+  .pagamento {
+    display: none;
+  }
+
+  .container {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .description-services {
+    margin-bottom: 20px;
+  }
+
+  .orcar {
+    display: block;
+    margin: 0px;
+    pad: 0px;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+ /** HOME **/
+
+ .container {
+    margin: 0px 20px 0px 20px;
+  }
+
+ #primeiro-link {
+    padding: 10px;
+    display: block;
+    margin: 15px 0px 10px 5px;
+  }
+
+  .redes-sociais {
+    margin: 0px;
+  }
+
+  .redes-sociais > a {
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    margin-right: 18px;
+    text-align: center;
+  }
+
+  .redes-sociais a:hover {
+    transform: none;
+    transition: none;
+  }
+  
+
+  .coluna-esquerda > h2 {
+  padding-top: 0px;
+  }
+
+  .menu {
+    margin-bottom: 20px;
+  }
+
+   /** SERVICOS **/
+
+   .servicos-oferecidos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .resumo {
+    height: 120px;
+  }
+
+  .service > h3 {
+    height: 50px;
+  }
+
+  .caracteristicas {
+    height: 150px;
+  }
+
+  .beneficios {
+    height: 100px;
+  }
+
+  .pagamento {
+    display: none;
+  }
+
+  .container {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .description-services {
+    margin-bottom: 20px;
+  }
+
+  .orcar {
+    display: block;
+    margin: 0px;
+    pad: 0px;
+    text-align: center;
+  }
+}
