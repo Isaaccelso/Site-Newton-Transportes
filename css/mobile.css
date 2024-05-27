@@ -158,3 +158,19 @@
     text-align: center;
   }
 }
+
+
+@media only screen and (max-width: 767px) {
+  .servicos-oferecidos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    padding: 0px;
+  }
+
+  .coluna-direita {
+    display: none;
+  }
+}
