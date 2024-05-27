@@ -173,4 +173,10 @@
   .coluna-direita {
     display: none;
   }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0px;
+  }
 }
