@@ -175,8 +175,18 @@
   }
 
   .menu {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+  }
+
+  .menu > a {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .coluna-esquerda {
+    margin: 0px;
+    padding: 0px;
   }
 }
